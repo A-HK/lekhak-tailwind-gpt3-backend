@@ -56,6 +56,10 @@ const openai = new OpenAIApi(configuration);
 //     res.json({ message: "Hello from server!", response: ans() });
 //   });
 
+app.get("/", (req, res) => {
+  res.send("Running Express API");
+});
+
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
 });
@@ -95,4 +99,6 @@ app.get("/api", async function (req, res) {
         input: Hero section for virtual healthcare with image
         output: `
   }
+
+  module.exports = app;
   
