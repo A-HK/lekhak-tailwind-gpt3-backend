@@ -9,7 +9,7 @@ require('dotenv').config();
 /* 5173 default port of local Vite React App */
 const cors = require('cors');
 app.use(cors({
-    origin: 'http://localhost:5173'
+    origin: process.env.LEKHAK_FRONTEND_URL
 }));
 
 /* bodyParser package required for obtaining body of post requests in express */
