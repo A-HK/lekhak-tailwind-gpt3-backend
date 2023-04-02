@@ -11,3 +11,8 @@ Link to frontend is here :  [A-HK/lekhak-tailwind-gpt3](https://github.com/A-HK/
 
 #### Component Example
 ![Screenshot (245)](https://user-images.githubusercontent.com/73497800/212559617-174c15a4-2fde-4891-83b4-c9c2c91f8391.png)
+
+
+#### OpenAI playground
+![image](https://user-images.githubusercontent.com/73497800/229366639-a6284bc8-e306-4832-bea2-379fbf0da106.png)
+
